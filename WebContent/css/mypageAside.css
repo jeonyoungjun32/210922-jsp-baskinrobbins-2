@@ -1,0 +1,28 @@
+@charset "utf-8";
+* {
+    margin: 0; padding: 0;
+}
+
+#mypage_aside {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 100%;
+    border: 1px solid black;
+    text-align: center;
+    background-color: gray;
+}
+#mypage_aside > nav {
+    cursor: pointer;
+}
+
+#mypage_aside > nav > ul > .nav_f_li {
+    width: auto;
+    height: 20px;
+    overflow: hidden;
+    transition-duration: 0.5s;
+}
+
+#mypage {
+    float: left;
+}
